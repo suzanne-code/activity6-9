@@ -4,7 +4,7 @@ var app = express();
 
 // setup a 'route' to listen on the default url path
 app.get("/", (req, res) => {
-    res.send("ACTIVITY6-9");
+    res.send("home.html");
 });
 
 // setup http server to listen on HTTP_PORT
